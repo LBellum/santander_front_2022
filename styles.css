@@ -11,9 +11,27 @@ p {
     color: #8b8b8bcc;
     font-family: Verdana;
     font-size: 20px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
 }
 
 button {
     color: #fff;
     background-color: #025157;
+}
+
+img {
+    max-width: 20cm;
+    /* Esto le dice a la imagen el ancho maximo */
+    margin: auto;
+    display: block;
+
+}
+
+img#segunda {
+    border: 8px double red;
+    /* Esto le agrega un borde a la imagen */
 }
