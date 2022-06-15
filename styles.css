@@ -15,6 +15,7 @@ p {
     font-family: Verdana;
     font-size: 20px;
     text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 form {
@@ -41,7 +42,7 @@ img {
     text-align: left;
     color: #025157;
     font-weight: 500;
-    font: sans-serif;
+    font-family: 'Righteous', cursive;
     height: 45px;
 }
 
