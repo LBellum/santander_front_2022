@@ -5,6 +5,9 @@ body {
 h1 {
     color: #025157;
     text-align: center;
+    margin: 40px 20px;
+    font-family: 'Alegreya', serif;
+
 }
 
 p {
@@ -31,7 +34,69 @@ img {
 
 }
 
+
+
+.navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+    font: sans-serif;
+    height: 45px;
+}
+
+.actions {
+    width: 15%;
+    text-align: left;
+}
+
+.actions>* {
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.actions>button {
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border-radius: 5px;
+}
+
+.actions>a {
+    color: #67b54b;
+}
+
 img#segunda {
     border: 8px double red;
     /* Esto le agrega un borde a la imagen */
+}
+
+li {
+    display: inline;
+    margin: 0 25px 0 0;
+    color: #025157;
+}
+
+.header {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 0;
+}
+
+.header>* {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo>img {
+    width: 45px;
+}
+
+.main {
+    margin-top: 140px;
+    text-align: center;
 }
