@@ -1,5 +1,5 @@
 body {
-    background-color: #fffbf7;
+    background-color: #e182ee;
 }
 
 h1 {
@@ -93,6 +93,10 @@ li {
     vertical-align: middle;
 }
 
+.logo {
+    width: 15%;
+}
+
 .logo>img {
     width: 45px;
 }
@@ -101,3 +105,8 @@ li {
     margin-top: 140px;
     text-align: center;
 }
+
+/* Diferencia entre px y rem
+px es medida absoluta, no importa el dispositivo donde se muestre, siempre se mostrara igual
+rem unidad relativa, es relativa a la raiz del documento (el html), multiplica el numero de px base que asigna el navegador por el numero que programemos 5rem = 5 * px base
+EM se basa en el tamaño de fuente del elemento en el que se encuentra */
