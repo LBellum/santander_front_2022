@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user_scalable=no">
+    <title>Matcha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
@@ -15,13 +18,13 @@
 </head>
 
 <body>
-    <section class="fixed-header">
+    <!-- <section class="fixed-header">
         <header class="header">
-            <!-- Regresar a página anterior -->
+            <!-- Regresar a página anterior --
             <a class="logo" href="/">
                 <img class="logo" src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="logo">
             </a>
-            <!-- Menu -->
+            <!-- Menu --
             <nav class="navbar">
                 <ul>
                     <li>Products</li>
@@ -32,13 +35,50 @@
                     <li>Resources</li>
                 </ul>
             </nav>
-            <!-- Acciones -->
+            <!-- Acciones --
             <div class="actions">
                 <a href="/login">Sign In</a>
                 <button>Start free trial</button>
             </div>
         </header>
-    </section>
+    </section> -->
+    <!-- Nuestra barra de navegación comentada va aquí -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fffbf7;">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#">
+                <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Platform</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                </ul>
+
+                <div class="actions">
+                    <a href="#">Sign In</a>
+                    <button>Start Free Trial</button>
+                </div>
+            </div>
+        </div>
+    </nav>
     <section class="main">
         <h1>Build your blog. Build your business</h1>
         <br>
@@ -53,232 +93,233 @@
             <input type="email" />
             <button type="submit">Try it now &rarr;</button>
         </form>
-        <br>
-        <br>
-        <br>
-        <img src=" https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="Imagen capterra">
-        <img id="segunda" src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png"
-            alt="Imagen de Matcha - Postwork" </section>
+        <figure class="banner"><img src=" https://ignos.blog/wp-content/uploads/2021/04/capterra.png"
+                alt="Imagen capterra">
+            <img id="segunda" src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png"
+                alt="Imagen de Matcha - Postwork">
+        </figure>
+    </section>
 
-        <section class="promo">
-            <article class="videoarrow">
-                <video controls
-                    poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
-                    <source type="video/webm"
-                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm" />
-                <source type="video/mp4"
-                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" />
-                </video>
-                <img class="arrow"
-                    src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png"
-                    alt="promo">
-            </article>
-            <article class="advert">
-                <h3>Publish to your blog in minutes, not hours.</h3>
-                <p> Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t
-                    have hours to create content that may or may not work. With Matcha, instantly publish from our
-                    library of 10,000+ professionally written articles and build your email list faster with our
-                    powerful conversion tool.
 
-                <p class="gray">Start publishing today:</p>
-                </p>
+    <section class="promo">
+        <article class="videoarrow">
+            <video controls
+                poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
+                <source type="video/webm"
+                src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm" />
+            <source type="video/mp4"
+                src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" />
+            </video>
+            <img class="arrow"
+                src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png"
+                alt="promo">
+        </article>
+        <article class="advert">
+            <h3>Publish to your blog in minutes, not hours.</h3>
+            <p> Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t
+                have hours to create content that may or may not work. With Matcha, instantly publish from our
+                library of 10,000+ professionally written articles and build your email list faster with our
+                powerful conversion tool.
 
-                <form>
+            <p class="gray">Start publishing today:</p>
+            </p>
+
+            <form>
+                <div>
                     <input type="email" placeholder="enter email" />
                     <button type="submit">Start My Trial</button>
-                </form>
-            </article>
-        </section>
+                </div>
+            </form>
+        </article>
+    </section>
 
-        <section class="features">
-            <article class="feature-card">
-                <div class="feature-content">
-                    <figure>
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-1.png"
-                            alt="Publish icon" />
-                    </figure>
-                    <h3>Fill your blog with engaging articles.</h3>
-                    <p>
-                        Publish to your blog in less time than it takes to drink your
-                        morning coffee.
-                    </p>
-                    <a href="">Publish instantly →</a>
-                </div>
-                <div class="feature-image">
-                    <figure>
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
-                            alt="Publish example" />
-                    </figure>
-                </div>
-            </article>
-            <article class="feature-card">
-                <div class="feature-content">
-                    <figure>
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png"
-                            alt="Site traffic icon" />
-                    </figure>
-                    <h3>Attract and engage more website visitors.</h3>
-                    <p>
-                        Enhance your email, social media channels, and paid ads with content
-                        from Matcha.
-                    </p>
-                    <a href="">Get more site traffic →</a>
-                </div>
-                <div class="feature-image">
-                    <figure>
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png"
-                            alt="Site traffic example" />
-                    </figure>
-                </div>
-            </article>
-            <article class="feature-card">
-                <div class="feature-content">
-                    <figure>
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
-                            alt="Capture icon" />
-                    </figure>
-                    <h3>Capture more emails with locked content.</h3>
-                    <p>
-                        Convert 10x more of your traffic into subscribers and nurture them
-                        to a sale.
-                    </p>
-                    <a href="">Grow your email list faster →</a>
-                </div>
-                <div class="feature-image">
-                    <figure>
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png"
-                            alt="Capture example" />
-                    </figure>
-                </div>
-            </article>
-            <article class="feature-card">
-                <div class="feature-content">
-                    <figure>
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png"
-                            alt="ROI icon" />
-                    </figure>
-                    <h3>Optimize your blog’s performance.</h3>
-                    <p>
-                        See what content delivers the most traffic, engagement, email
-                        subscribers, and sales.
-                    </p>
-                    <a href="">See content’s ROI →</a>
-                </div>
-                <div class="feature-image">
-                    <figure>
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
-                            alt="ROI example" />
-                    </figure>
-                </div>
-            </article>
-        </section>
+    <section class="features">
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-1.png"
+                        alt="Publish icon" />
+                </figure>
+                <h3>Fill your blog with engaging articles.</h3>
+                <p>
+                    Publish to your blog in less time than it takes to drink your
+                    morning coffee.
+                </p>
+                <a href="">Publish instantly →</a>
+            </div>
+            <div class="feature-image">
+                <figure>
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
+                        alt="Publish example" />
+                </figure>
+            </div>
+        </article>
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png"
+                        alt="Site traffic icon" />
+                </figure>
+                <h3>Attract and engage more website visitors.</h3>
+                <p>
+                    Enhance your email, social media channels, and paid ads with content
+                    from Matcha.
+                </p>
+                <a href="">Get more site traffic →</a>
+            </div>
+            <div class="feature-image">
+                <figure>
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png"
+                        alt="Site traffic example" />
+                </figure>
+            </div>
+        </article>
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
+                        alt="Capture icon" />
+                </figure>
+                <h3>Capture more emails with locked content.</h3>
+                <p>
+                    Convert 10x more of your traffic into subscribers and nurture them
+                    to a sale.
+                </p>
+                <a href="">Grow your email list faster →</a>
+            </div>
+            <div class="feature-image">
+                <figure>
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/07/feature-blog-email.png"
+                        alt="Capture example" />
+                </figure>
+            </div>
+        </article>
+        <article class="feature-card">
+            <div class="feature-content">
+                <figure>
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-library-1.png" alt="ROI icon" />
+                </figure>
+                <h3>Optimize your blog’s performance.</h3>
+                <p>
+                    See what content delivers the most traffic, engagement, email
+                    subscribers, and sales.
+                </p>
+                <a href="">See content’s ROI →</a>
+            </div>
+            <div class="feature-image">
+                <figure>
+                    <img src="https://getmatcha.com/wp-content/uploads/2020/04/feature-platform-3.png"
+                        alt="ROI example" />
+                </figure>
+            </div>
+        </article>
+    </section>
 
-        <section class="logros">
-            <article class="overview">
-                <h3> Growing ecommerce brands rely on Matcha.</h3>
-                <p>Are you tired of wasting time publishing blog articles to only see a trickle of traffic and no impact
-                    on sales? Join hundreds of business owners and ecommerce marketers who rely on Matcha for quality
-                    content and consistent performance from their blogs.</p>
-                <button class="ovb"> Who uses Matcha?</button>
-                <img src="https://getmatcha.com/wp-content/uploads/2019/09/brands_group.png" title="logos">
-            </article>
+    <section class="logros">
+        <article class="overview">
+            <h3> Growing ecommerce brands rely on Matcha.</h3>
+            <p>Are you tired of wasting time publishing blog articles to only see a trickle of traffic and no impact
+                on sales? Join hundreds of business owners and ecommerce marketers who rely on Matcha for quality
+                content and consistent performance from their blogs.</p>
+            <button class="ovb"> Who uses Matcha?</button>
+            <img src="https://getmatcha.com/wp-content/uploads/2019/09/brands_group.png" title="logos">
+        </article>
 
-            <article class="testigos">
-                <img src="https://getmatcha.com/wp-content/uploads/2019/06/matt-and-margaret_headshot.png"
-                    alt="matt margaret">
-                <div class="circulo">
-                    <img src="https://getmatcha.com/wp-content/uploads/2019/06/mambe-logo-1.png" alt="mambe">
+        <article class="testigos">
+            <img src="https://getmatcha.com/wp-content/uploads/2019/06/matt-and-margaret_headshot.png"
+                alt="matt margaret">
+            <div class="circulo">
+                <img src="https://getmatcha.com/wp-content/uploads/2019/06/mambe-logo-1.png" alt="mambe">
+            </div>
+            <div class="historias">
+                <h4>Mambe Waterproof Blankets</h4>
+                <h3>How Mambe Increased Conversions by 327%, Reduced CPL by 60%</h3>
+                <div class="results"> <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_target.png"
+                        alt="Target icon">
+                    <p>+327% more popup conversions at a 60% lower cost</p>
                 </div>
-                <div class="historias">
-                    <h4>Mambe Waterproof Blankets</h4>
-                    <h3>How Mambe Increased Conversions by 327%, Reduced CPL by 60%</h3>
-                    <div class="results"> <img
-                            src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_target.png"
-                            alt="Target icon">
-                        <p>+327% more popup conversions at a 60% lower cost</p>
-                    </div>
-                </div>
-                <div class="footer">
-                    <button>See Case Study</button>
-                </div>
-
-            </article>
-
-        </section>
-
-        <section class="Matchawork">
-
-            <div class="how">
-                <h1>How does Matcha work?</h1>
-                <p> Your blog can be so much more than window dressing. Use Matcha’s <a href="index.html"> simple
-                        formula</a> to transform your blog into an ecommerce growth engine.</p>
-                <button>Explore the Platform</button>
+            </div>
+            <div class="footer">
+                <button>See Case Study</button>
             </div>
 
-            <article class="work">
-                <article class="work-content">
-                    <div class="work-image">
-                        <img src="https://img1.pnghut.com/22/15/16/enQsagHDi0/thumb-gravity-falls-journal-3-disney-xd-dipper-pines-fictional-character.jpg"
-                            alt="Publish" class="card-step-bg">
+        </article>
 
-                        <img src="https://interactivadigital.com/uploads/2021/07/emojis-y-su-poder-de-comunicacion-093327.jpg"
-                            alt="Content icon" class="card-step-icon">
-                    </div>
-                    <div class="work-body">
-                        <h1>Publish</h1>
-                        <p>Effortlessly fill your blog with content that shoppers want to read</p>
-                        <a href="index.html">Publish instantly &rarr;</a>
-                    </div>
-                </article>
+    </section>
 
-                <article class="work-content">
-                    <div class="work-image">
-                        <img src="https://e7.pngegg.com/pngimages/28/668/png-clipart-kratos-from-god-of-war-illustration-god-of-war-iii-god-of-war-ascension-god-of-war-ghost-of-sparta-god-of-war-chains-of-olympus-god-of-war-video-game-playstation-4.png"
-                            alt="Promote" class="card-step-bg">
+    <section class="Matchawork">
 
-                        <img src="https://image.shutterstock.com/shutterstock/photos/107636042/display_1500/stock-vector-emoticon-bowing-down-107636042.jpg"
-                            alt="Channels icon" class="card-step-icon">
-                    </div>
-                    <div class="work-body">
-                        <h1>Promote</h1>
-                        <p>Use articles in email, social, and content ads to attract more site visitors.</p>
-                        <a href="index.html">Drive more site visitors &rarr;</a>
-                    </div>
-                </article>
+        <div class="how">
+            <h1>How does Matcha work?</h1>
+            <p> Your blog can be so much more than window dressing. Use Matcha’s <a href="index.html"> simple
+                    formula</a> to transform your blog into an ecommerce growth engine.</p>
+            <button>Explore the Platform</button>
+        </div>
 
-                <article class="work-content">
-                    <div class="work-image">
-                        <img src="https://pm1.narvii.com/6661/7d478ab125426367a01ff0d1a618190f59224ffc_hq.jpg"
-                            alt="Promote" class="card-step-bg">
+        <article class="work">
+            <article class="work-content">
+                <div class="work-image">
+                    <img src="https://img1.pnghut.com/22/15/16/enQsagHDi0/thumb-gravity-falls-journal-3-disney-xd-dipper-pines-fictional-character.jpg"
+                        alt="Publish" class="card-step-bg">
 
-                        <img src="https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2018/06/22/5fa433b8178fc.jpeg"
-                            alt="Channels icon" class="card-step-icon">
-                    </div>
-                    <div class="work-body">
-                        <h1>Capture</h1>
-                        <p>Turn readers into email subscribers and subscribers into customers.</p>
-                        <a href="index.html">Grow your email list &rarr;</a>
-                    </div>
-                </article>
-
-                <article class="work-content">
-                    <div class="work-image">
-                        <img src="https://previews.123rf.com/images/elnur/elnur1110/elnur111000277/10819091-businessman-holding-a-noose.jpg"
-                            alt="Measure" class="card-step-bg">
-
-                        <img src="https://ih1.redbubble.net/image.430154629.1950/st,small,507x507-pad,600x600,f8f8f8.jpg"
-                            alt="Chart icon" class="card-step-icon">
-                    </div>
-                    <div class="work-body">
-                        <h1>Measure</h1>
-                        <p>See what’s working and what’s not to easily optimize for more traffic, email subscribers, and
-                            sales.</p>
-                        <a href="index.html">Track performance &rarr;</a>
-                    </div>
-                </article>
-
+                    <img src="https://interactivadigital.com/uploads/2021/07/emojis-y-su-poder-de-comunicacion-093327.jpg"
+                        alt="Content icon" class="card-step-icon">
+                </div>
+                <div class="work-body">
+                    <h1>Publish</h1>
+                    <p>Effortlessly fill your blog with content that shoppers want to read</p>
+                    <a href="index.html">Publish instantly &rarr;</a>
+                </div>
             </article>
-        </section>
+
+            <article class="work-content">
+                <div class="work-image">
+                    <img src="https://e7.pngegg.com/pngimages/28/668/png-clipart-kratos-from-god-of-war-illustration-god-of-war-iii-god-of-war-ascension-god-of-war-ghost-of-sparta-god-of-war-chains-of-olympus-god-of-war-video-game-playstation-4.png"
+                        alt="Promote" class="card-step-bg">
+
+                    <img src="https://image.shutterstock.com/shutterstock/photos/107636042/display_1500/stock-vector-emoticon-bowing-down-107636042.jpg"
+                        alt="Channels icon" class="card-step-icon">
+                </div>
+                <div class="work-body">
+                    <h1>Promote</h1>
+                    <p>Use articles in email, social, and content ads to attract more site visitors.</p>
+                    <a href="index.html">Drive more site visitors &rarr;</a>
+                </div>
+            </article>
+
+            <article class="work-content">
+                <div class="work-image">
+                    <img src="https://pm1.narvii.com/6661/7d478ab125426367a01ff0d1a618190f59224ffc_hq.jpg" alt="Promote"
+                        class="card-step-bg">
+
+                    <img src="https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2018/06/22/5fa433b8178fc.jpeg"
+                        alt="Channels icon" class="card-step-icon">
+                </div>
+                <div class="work-body">
+                    <h1>Capture</h1>
+                    <p>Turn readers into email subscribers and subscribers into customers.</p>
+                    <a href="index.html">Grow your email list &rarr;</a>
+                </div>
+            </article>
+
+            <article class="work-content">
+                <div class="work-image">
+                    <img src="https://previews.123rf.com/images/elnur/elnur1110/elnur111000277/10819091-businessman-holding-a-noose.jpg"
+                        alt="Measure" class="card-step-bg">
+
+                    <img src="https://ih1.redbubble.net/image.430154629.1950/st,small,507x507-pad,600x600,f8f8f8.jpg"
+                        alt="Chart icon" class="card-step-icon">
+                </div>
+                <div class="work-body">
+                    <h1>Measure</h1>
+                    <p>See what’s working and what’s not to easily optimize for more traffic, email subscribers, and
+                        sales.</p>
+                    <a href="index.html">Track performance &rarr;</a>
+                </div>
+            </article>
+
+        </article>
+    </section>
 </body>
 
 </html>
